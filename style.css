@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    padding: 30px;
+}
+
+.contanier{
+    width: 100%;
+    max-width: 1440;
+    margin: 20px auto auto auto;
+
+}
+
+.con1>header{
+    display: flex;
+    flex-direction: column;
+}
+
+body>nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 12px 26px;
+    align-items: center;    
+}
+
+nav>ul{
+    display: flex;
+    gap: 20px;
+}
+
+ul>li{
+font-weight: 600;
+font-size: 14px;
+color: #17183B;
+}
+
+nav>.img-c{
+    display: flex;
+    gap: 20px;
+}
+
+.img-c>.line{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.contanier>.sec1{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1>.line1{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.line1>h1{
+    display: flex;
+    font-weight: 900;
+    font-size: 30px;
+    align-items: center;
+}
+
+h1>p{
+    font-weight: 400;
+    opacity: 0.7;
+    font-size: 20px;
+}
+
+.sec1>.line2{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line2>p{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+color: #17183b50;
+}
+
+p>span{
+    font-weight: 600;
+    font-size: 14px;
+    color: #17183b;    
+}
+
+.contanier>.sec1>.main{
+    display: flex;
+
+}
+
+.main>.txt-c>h1{
+    margin-top: 76px;
+    font-weight: 700;
+font-size: 44px;
+color: #17183B;
+margin-bottom: 24px;
+}
+
+.txt-c>.txt{
+    display: flex;
+align-items: center;
+gap: 10px           ;
+margin-bottom: 48px;
+}
+
+.txt-c>p{
+    width: 100%;
+    max-width: 440px;
+    margin-bottom: 42px;
+}
+
+.txt-c>.card{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.txt-c>.card>.card1{
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 100px;
+    align-items: center;
+    display: flex;
+    padding: 16px  24px;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.card>button{
+    background: #3AA39F;
+border-radius: 4px;
+padding: 18px 40px;
+gap: 16px;
+font-weight: 600;
+font-size: 16px;
+color: #FFFFFF;
+border: none;
+
+}
+
+.txt-c>p{
+    font-weight: 400;
+font-size: 16px;
+color: #17183B;
+margin-bottom: 83px;
+}
+
+
+.txt-c>footer{
+    display: flex;
+    gap: 155px;
+    align-items: center;
+}
+
+footer>.img{
+    display: flex;
+    gap: 16px;
+    font-weight: 600;
+font-size: 16px;
+color: #3AA39F;
+
+}
+
+footer>.img-c{
+    display: flex;
+    gap: 15px;
+}
+
+.main>.bigimg-c{
+    align-items: center;
+
+}
+
+.bigimg-c>.img-c{
+    margin-left: 120px;
+
+}

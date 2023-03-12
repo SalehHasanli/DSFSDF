@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    margin: auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.contanier{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px;
+}
+
+.cart>.sec1{
+    display: flex;
+    gap: 20px;
+}
+body>nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 12px 26px;
+    align-items: center;    
+}
+
+nav>ul{
+    display: flex;
+    gap: 20px;
+}
+
+ul>li{
+font-weight: 600;
+font-size: 14px;
+color: #17183B;
+}
+
+nav>.img-c{
+    display: flex;
+    gap: 20px;
+}
+
+.img-c>.line{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.contanier>.cart{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart>.txt{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.txt-c>.txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 387px;
+}
+
+.txt-c>.txt>h1{
+    font-weight: 700;
+font-size: 32px;
+color: #17183B;
+justify-content: space-around;
+display: flex;
+}
+
+.txt>p{
+    font-weight: 600;
+font-size: 20px;
+color: #17183B;
+
+}
+
+.txt-c>p{
+    font-weight: 600;
+font-size: 20px;
+color: #A2A3B1;
+}
+
+.cart>.card-c{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-c>.card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card>.card1>.txt-c>.txt>h1{
+    font-weight: 600;
+font-size: 20px;
+color: #17183B;
+margin-bottom: 10px;
+}
+
+.txt-c>p{
+    font-weight: 600;
+font-size: 16px;
+color: #17183B;
+
+}
+
+p>span{
+    font-weight: 600;
+font-size: 16px;
+color: #A2A3B1;
+margin-top: 16px;
+}
+
+.card>.button-c{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.card1>.button-c{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-top: 20px;
+}
+
+.button-c>.plus{
+    display: flex;
+    gap: 40px;
+    border: 1px solid;
+    border-radius: 4px; 
+    padding: 5px;  
+}
+
+.button-c>button{
+    font-weight: 600;
+font-size: 16px;
+color: #E14B4B;
+border: none;
+background: none;
+cursor: pointer;
+}
+
+
+.card1>p{
+    font-weight: 400;
+font-size: 16px;
+color: #17183B;
+margin-top: 30px;
+background: rgba(58, 163, 159, 0.1);
+border: 1px solid #3AA39F;
+border-radius: 4px; 
+padding: 20px;
+gap: 12px;
+width: 100%;
+max-width: 643px;
+}
+
+.sec1>.order{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px;
+    border: 1px solid #D1D1D8;
+    width: 100%;
+    max-width: 380px;
+}
+
+.order>h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: #17183B;
+    font-weight: 700;
+    gap: 30px;
+
+}
+
+.order>.price>.txt{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    color: #17183B;
+}
+
+.txt>p{
+    font-size: 18px;
+}
+
+.order>.total>.txt{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+font-size: 13px;
+color: #17183B;
+margin-bottom: 20px;
+
+
+}
+
+.total>.input>input{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+border: 1px solid #D1D1D8;
+border-radius: 2px;
+width: 100%;
+max-width: 316px;
+position: absolute;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.input>img{
+    top:16px;
+    left: 276px;
+    position: relative;
+
+}
+
+.order>button{
+    display: flex;
+    margin-top: 20px;
+    padding: 18px 40px;
+    align-items: center;
+    justify-content: center;
+    background: #3AA39F;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 600;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
